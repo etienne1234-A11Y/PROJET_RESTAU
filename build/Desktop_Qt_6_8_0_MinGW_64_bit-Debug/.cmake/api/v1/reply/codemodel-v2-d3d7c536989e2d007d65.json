@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5b04f30ea8c3734c55c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "resto_projet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "resto_projet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resto_projet-Debug-4431fbb2eebcb8417785.json",
+					"name" : "resto_projet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resto_projet_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resto_projet_autogen-Debug-2f79bdc209ed1253ea75.json",
+					"name" : "resto_projet_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resto_projet_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resto_projet_autogen_timestamp_deps-Debug-5f6c84e13b575ffef386.json",
+					"name" : "resto_projet_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/X3/programmation concurrente/restaurant_projet/resto_projet/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "F:/X3/programmation concurrente/restaurant_projet/resto_projet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
