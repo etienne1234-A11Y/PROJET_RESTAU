@@ -8,13 +8,14 @@
 
 #include <QObject>
 #include "model/ViewModel.h"
-#include "view.h"
+#include "view\view.h"
 
 class Controller : public QObject {
     Q_OBJECT
 
 public:
     explicit Controller(Model *model, View *view, QObject *parent = nullptr);
+    void show();
 
 private:
     Model *model;
@@ -24,6 +25,7 @@ private:
         void onStartButtonClicked();
     void onPauseButtonClicked();
     void onTimeSpinBoxChanged(int time);
+
 };
 
 #endif // VIEWCONTROLLER_H

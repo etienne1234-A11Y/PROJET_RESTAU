@@ -3,7 +3,7 @@
 #include <QApplication>
 #include <QFile>
 #include "model/ViewModel.h"
-#include "view.h"
+#include "view/view.h"
 #include "controller/ViewController.h"
 
 int main(int argc, char *argv[]) {
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     View view;
     Controller controller(&model, &view);
 
-    view.show();
+    controller.show();
 
     return app.exec();
 }

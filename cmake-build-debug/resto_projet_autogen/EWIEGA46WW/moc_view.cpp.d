@@ -1,5 +1,11 @@
-F:/X3/programmation\ concurrente/QT\ CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/EWIEGA46WW/moc_view.cpp: F:/X3/programmation\ concurrente/QT\ CODE/resto_projet_etie/resto_projet/resto_projet/view.h \
-  F:/X3/programmation\ concurrente/QT\ CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
+F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/EWIEGA46WW/moc_view.cpp: F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/view.h \
+  F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
+  F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/model/chefrang.h \
+  F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/model/commis.h \
+  F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/model/cuisinier.h \
+  F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/model/maitrehotel.h \
+  F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/model/plongeur.h \
+  F:/X3/programmation\ concurrente/resto_projet_etie/resto_projet/resto_projet/model/serveur.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \

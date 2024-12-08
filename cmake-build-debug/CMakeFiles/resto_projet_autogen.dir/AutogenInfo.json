@@ -1,17 +1,69 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen",
-	"CMAKE_BINARY_DIR" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet",
+	"BUILD_DIR" : "F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen",
+	"CMAKE_BINARY_DIR" : "F:/X3/programmation concurrente/depot/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/X3/programmation concurrente/depot/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "F:/X3/programmation concurrente/depot",
 	"CMAKE_EXECUTABLE" : "F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/CMakeLists.txt",
-		"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake",
+		"F:/X3/programmation concurrente/depot/CMakeLists.txt",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in",
+		"F:/X3/programmation concurrente/depot/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake",
-		"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
+		"F:/X3/programmation concurrente/depot/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
@@ -24,11 +76,27 @@
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
-		"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in",
+		"F:/X3/programmation concurrente/depot/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake",
-		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
+		"F:/X3/programmation concurrente/depot/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
+		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -257,36 +325,72 @@
 		"F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
-		"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/ressources.qrc"
+		"F:/X3/programmation concurrente/depot/ressources.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet",
+	"CMAKE_SOURCE_DIR" : "F:/X3/programmation concurrente/depot",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/deps",
+	"DEP_FILE" : "F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "resto_projet_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/controller/ViewController.h",
+			"F:/X3/programmation concurrente/depot/View/view.h",
+			"MU",
+			"WB4RFHLAU6/moc_view.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/controller/ViewController.h",
 			"MU",
 			"NPUKSKGWT2/moc_ViewController.cpp",
 			null
 		],
 		[
-			"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/model/ViewModel.h",
+			"F:/X3/programmation concurrente/depot/model/ViewModel.h",
 			"MU",
 			"NLOY5YBGEN/moc_ViewModel.cpp",
 			null
 		],
 		[
-			"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/view.h",
+			"F:/X3/programmation concurrente/depot/model/chefrang.h",
 			"MU",
-			"EWIEGA46WW/moc_view.cpp",
+			"NLOY5YBGEN/moc_chefrang.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/commis.h",
+			"MU",
+			"NLOY5YBGEN/moc_commis.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/cuisinier.h",
+			"MU",
+			"NLOY5YBGEN/moc_cuisinier.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/maitrehotel.h",
+			"MU",
+			"NLOY5YBGEN/moc_maitrehotel.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/plongeur.h",
+			"MU",
+			"NLOY5YBGEN/moc_plongeur.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/serveur.h",
+			"MU",
+			"NLOY5YBGEN/moc_serveur.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/include",
-	"MOC_COMPILATION_FILE" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/include",
+	"MOC_COMPILATION_FILE" : "F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -310,7 +414,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet",
+		"F:/X3/programmation concurrente/depot",
 		"F:/logiciels/QT/6.8.0/mingw_64/include/QtCore",
 		"F:/logiciels/QT/6.8.0/mingw_64/include",
 		"F:/logiciels/QT/6.8.0/mingw_64/mkspecs/win32-g++",
@@ -344,39 +448,53 @@
 		"-c",
 		"F:/logiciels/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/CMakeFiles/resto_projet_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "F:/X3/programmation concurrente/depot/cmake-build-debug/CMakeFiles/resto_projet_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "F:/logiciels/QT/6.8.0/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "F:/logiciels/QT/6.8.0/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
-	"SETTINGS_FILE" : "F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/CMakeFiles/resto_projet_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "F:/X3/programmation concurrente/depot/cmake-build-debug/CMakeFiles/resto_projet_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "F:/X3/programmation concurrente/depot/View/view.cpp", "MU", null ],
 		[
-			"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/controller/ViewController.cpp",
+			"F:/X3/programmation concurrente/depot/controller/ViewController.cpp",
+			"MU",
+			null
+		],
+		[ "F:/X3/programmation concurrente/depot/main.cpp", "MU", null ],
+		[
+			"F:/X3/programmation concurrente/depot/model/ViewModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/main.cpp",
+			"F:/X3/programmation concurrente/depot/model/chefrang.cpp",
+			"MU",
+			null
+		],
+		[ "F:/X3/programmation concurrente/depot/model/commis.cpp", "MU", null ],
+		[
+			"F:/X3/programmation concurrente/depot/model/cuisinier.cpp",
 			"MU",
 			null
 		],
 		[
-			"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/model/ViewModel.cpp",
+			"F:/X3/programmation concurrente/depot/model/maitrehotel.cpp",
 			"MU",
 			null
 		],
 		[
-			"F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/view.cpp",
+			"F:/X3/programmation concurrente/depot/model/plongeur.cpp",
 			"MU",
 			null
-		]
+		],
+		[ "F:/X3/programmation concurrente/depot/model/serveur.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

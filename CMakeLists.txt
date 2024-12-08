@@ -24,14 +24,25 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 # Liste des fichiers sources et ressources
 set(PROJECT_SOURCES
         main.cpp
-        view.cpp
-        view.h
-        view.ui
+        view/view.cpp
+        view/view.h
+        view/view.ui
         ressources.qrc
         controller/ViewController.h
         controller/ViewController.cpp
         model/ViewModel.h
         model/ViewModel.cpp
+        model/chefrang.h
+        model/chefrang.cpp
+        model/maitrehotel.h
+        model/maitrehotel.cpp
+        model/serveur.cpp
+        model/cuisinier.h
+        model/commis.h
+        model/plongeur.h
+        model/cuisinier.cpp
+        model/commis.cpp
+        model/plongeur.cpp
 )
 
 # Création de l'exécutable
