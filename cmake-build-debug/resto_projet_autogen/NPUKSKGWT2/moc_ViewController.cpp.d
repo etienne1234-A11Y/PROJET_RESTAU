@@ -1,13 +1,16 @@
 F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NPUKSKGWT2/moc_ViewController.cpp: F:/X3/programmation\ concurrente/depot/controller/ViewController.h \
   F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
+  F:/X3/programmation\ concurrente/depot/View/view.h \
+  F:/X3/programmation\ concurrente/depot/controller/ViewController.h \
+  F:/X3/programmation\ concurrente/depot/model/Database.h \
   F:/X3/programmation\ concurrente/depot/model/ViewModel.h \
   F:/X3/programmation\ concurrente/depot/model/chefrang.h \
+  F:/X3/programmation\ concurrente/depot/model/client.h \
   F:/X3/programmation\ concurrente/depot/model/commis.h \
   F:/X3/programmation\ concurrente/depot/model/cuisinier.h \
   F:/X3/programmation\ concurrente/depot/model/maitrehotel.h \
   F:/X3/programmation\ concurrente/depot/model/plongeur.h \
   F:/X3/programmation\ concurrente/depot/model/serveur.h \
-  F:/X3/programmation\ concurrente/depot/view/view.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
@@ -214,7 +217,10 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QDebug \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QObject \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QString \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QVariant \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -275,6 +281,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmargins.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmath.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetacontainer.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetaobject.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetatype.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qminmax.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qnamespace.h \
@@ -374,6 +381,15 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qvalidator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/QSqlDatabase \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/QSqlError \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/QSqlQuery \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qsqldatabase.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qsqlerror.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qsqlquery.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsql-config.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlexports.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlglobal.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QComboBox \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsItem \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGridLayout \

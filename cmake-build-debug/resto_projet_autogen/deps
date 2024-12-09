@@ -9,10 +9,14 @@ resto_projet_autogen/timestamp: \
 	F:/X3/programmation\ concurrente/depot/controller/ViewController.cpp \
 	F:/X3/programmation\ concurrente/depot/controller/ViewController.h \
 	F:/X3/programmation\ concurrente/depot/main.cpp \
+	F:/X3/programmation\ concurrente/depot/model/Database.cpp \
+	F:/X3/programmation\ concurrente/depot/model/Database.h \
 	F:/X3/programmation\ concurrente/depot/model/ViewModel.cpp \
 	F:/X3/programmation\ concurrente/depot/model/ViewModel.h \
 	F:/X3/programmation\ concurrente/depot/model/chefrang.cpp \
 	F:/X3/programmation\ concurrente/depot/model/chefrang.h \
+	F:/X3/programmation\ concurrente/depot/model/client.cpp \
+	F:/X3/programmation\ concurrente/depot/model/client.h \
 	F:/X3/programmation\ concurrente/depot/model/commis.cpp \
 	F:/X3/programmation\ concurrente/depot/model/commis.h \
 	F:/X3/programmation\ concurrente/depot/model/cuisinier.cpp \
@@ -262,7 +266,10 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QDebug \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QObject \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QString \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QVariant \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20iterator.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -323,6 +330,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmargins.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmath.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetacontainer.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetaobject.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetatype.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qminmax.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qnamespace.h \
@@ -422,6 +430,15 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qvalidator.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/QSqlDatabase \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/QSqlError \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/QSqlQuery \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qsqldatabase.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qsqlerror.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qsqlquery.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsql-config.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlexports.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlglobal.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QComboBox \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsItem \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
@@ -578,6 +595,31 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets-relwithdebinfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake \
+	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake \
 	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake \
 	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake \
 	F:/logiciels/QT/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake \

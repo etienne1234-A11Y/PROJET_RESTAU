@@ -3,6 +3,7 @@
 #include "NPUKSKGWT2/moc_ViewController.cpp"
 #include "NLOY5YBGEN/moc_ViewModel.cpp"
 #include "NLOY5YBGEN/moc_chefrang.cpp"
+#include "NLOY5YBGEN/moc_client.cpp"
 #include "NLOY5YBGEN/moc_commis.cpp"
 #include "NLOY5YBGEN/moc_cuisinier.cpp"
 #include "NLOY5YBGEN/moc_maitrehotel.cpp"

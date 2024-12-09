@@ -5,7 +5,7 @@
 #include "ViewModel.h"
 
 
-Model::Model(QObject *parent) : QObject(parent), time(0) {
+Model::Model(QWidget *parent) : QWidget(parent), time(0) {
 
 }
 

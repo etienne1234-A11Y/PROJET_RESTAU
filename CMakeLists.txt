@@ -17,16 +17,20 @@ set(CMAKE_AUTORCC ON)
 # Inclure les répertoires de sources
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
+#set(MYSQL_CONNECTOR_PATH "C:/Program Files/MySQL/MySQL Connector C++ 9.1")
+#include_directories(${MYSQL_CONNECTOR_PATH}/include)
+#link_directories(${MYSQL_CONNECTOR_PATH}/lib64)
+
 # Trouver les composants nécessaires de Qt
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+#find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 
 # Liste des fichiers sources et ressources
 set(PROJECT_SOURCES
         main.cpp
-        view/view.cpp
-        view/view.h
-        view/view.ui
+        View/view.cpp
+        View/view.h
         ressources.qrc
         controller/ViewController.h
         controller/ViewController.cpp
@@ -43,6 +47,10 @@ set(PROJECT_SOURCES
         model/cuisinier.cpp
         model/commis.cpp
         model/plongeur.cpp
+        model/client.h
+        model/client.cpp
+        model/Database.h
+        model/Database.cpp
 )
 
 # Création de l'exécutable
@@ -57,10 +65,9 @@ else()
     )
 endif()
 
-# Lier les bibliothèques Qt nécessaires (après avoir défini la cible)
-if(TARGET resto_projet)
-    target_link_libraries(resto_projet PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
-endif()
+find_package(Qt6 REQUIRED COMPONENTS Sql)
+
+target_link_libraries(resto_projet PRIVATE Qt6::Widgets Qt6::Sql)
 
 # Configuration des propriétés pour Windows et macOS
 set_target_properties(resto_projet PROPERTIES

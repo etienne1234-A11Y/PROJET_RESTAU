@@ -7,12 +7,13 @@
 #define VIEWMODEL_H
 
 #include <QObject>
+#include <QWidget>
 
-class Model : public QObject {
+class Model : public QWidget {
     Q_OBJECT
 
 public:
-    explicit Model(QObject *parent = nullptr);
+    explicit Model(QWidget *parent = nullptr);
 
     int getTime() const;
     void setTime(int newTime);

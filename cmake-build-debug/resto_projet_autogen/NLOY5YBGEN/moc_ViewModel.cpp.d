@@ -90,9 +90,11 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
@@ -206,8 +208,10 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QObject \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20type_traits.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q23utility.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qalgorithms.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanystringview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydata.h \
@@ -232,8 +236,11 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qcontainerfwd.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qcontainerinfo.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qcontainertools_impl.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qcontiguouscache.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdatastream.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdebug.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qendian.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qflags.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qfloat16.h \
@@ -243,14 +250,18 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qgenericatomic.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qglobal.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qglobalstatic.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qhash.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qhashfunctions.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qiodevicebase.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qiterable.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qiterator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qlatin1stringview.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qline.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qlist.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qlogging.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmalloc.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmap.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmargins.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmath.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetacontainer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmetatype.h \
@@ -263,10 +274,19 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qobjectdefs_impl.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qoverload.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpair.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpoint.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qprocessordetection.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrect.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrefcount.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qset.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata_impl.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qsharedpointer.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qsize.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qspan.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qstring.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qstringalgorithms.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qstringbuilder.h \
@@ -290,6 +310,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtdeprecationdefinitions.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtextstream.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtnoop.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -301,6 +322,39 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtypeinfo.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtypes.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvariant.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qyieldcpu.h
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qaction.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qbitmap.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qbrush.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qcolor.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qcursor.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qfont.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qfontinfo.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qfontmetrics.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qicon.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qimage.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpalette.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpixmap.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpolygon.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qregion.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qrgb.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qrgba64.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtgui-config.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtransform.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QWidget \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qwidget.h

@@ -16,6 +16,8 @@
 #include <QGraphicsItem>
 #include <QStackedWidget>
 
+#include "controller/ViewController.h"
+
 View::View(QWidget *parent) : QMainWindow(parent) {
     // Initialiser le QStackedWidget pour basculer entre les interfaces
 
@@ -92,19 +94,11 @@ void View::first_interface() {
 
     mainLayout->addLayout(panelsLayout);
 
-    // Afficher le chef de rang dans le leftPanel
-    chefrang *chef = new chefrang(this);
-    chef->afficherchefrang(leftPanel); // Passer leftPanel comme parent
-    maitrehotel *maitre = new maitrehotel(this);
-    maitre->affichermaitrehotel(leftPanel);
-    serveur *ser = new serveur(this);
-    ser ->afficherserveur(leftPanel);
-    commis *com = new commis(this);
-    com->affichercommis(rightPanel);
-    cuisinier *cuis = new cuisinier(this);
-    cuis-> affichercuisinier(rightPanel);
-    plongeur *plong = new plongeur(this);
-    plong->afficherplongeur(rightPanel);
+
+    Model *model = new Model();
+    Controller *controller = new Controller(model,this);
+    controller->affichergens();
+
 
 
     show_table_personnages();

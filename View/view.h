@@ -24,7 +24,11 @@
 #include "model\cuisinier.h"
 #include "model\plongeur.h"
 #include "model\serveur.h"
-
+#include "model\client.h"
+#include "controller/ViewController.h"
+#include "model/ViewModel.h"
+#include <QObject>
+#include <QWidget>
 
 
 class View : public QMainWindow {
@@ -33,12 +37,14 @@ class View : public QMainWindow {
 public:
     View(QWidget *parent = nullptr);
 
+
 public:
     void first_interface();
     void second_interface();
     void open_first_interface();
     void open_second_interface();
     void show_table_personnages();
+
 
     QPushButton *startButton;
     QPushButton *pauseButton;
@@ -57,7 +63,7 @@ public:
     QWidget *firstPage;           // Première interface
     QWidget *secondPage;
 
-    chefrang *chef; // Instance de la classe chefrang
+    //chefrang *chef; // Instance de la classe chefrang
 
     QPushButton *getStartButton() const;
     QPushButton *getPauseButton() const;
