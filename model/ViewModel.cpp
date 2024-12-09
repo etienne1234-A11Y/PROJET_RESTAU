@@ -4,7 +4,10 @@
 
 #include "ViewModel.h"
 
-Model::Model(QObject *parent) : QObject(parent), time(0) {}
+
+Model::Model(QObject *parent) : QObject(parent), time(0) {
+
+}
 
 int Model::getTime() const {
     return time;

@@ -17,6 +17,7 @@ public:
     explicit Controller(Model *model, View *view, QObject *parent = nullptr);
     void show();
 
+
 private:
     Model *model;
     View *view;

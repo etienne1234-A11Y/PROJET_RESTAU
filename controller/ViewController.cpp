@@ -28,6 +28,7 @@ void Controller::onPauseButtonClicked() {
 void Controller::onTimeSpinBoxChanged(int time) {
     model->setTime(time);
 }
+
 void Controller::show() {
     view->show();
 }

@@ -299,8 +299,7 @@ void View::show_table_personnages() {
     pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/acceuil.png");
     QLabel *label = new QLabel(leftPanel);
     label->setObjectName("label");
-    label ->setPixmap(*pixmap);
-    //label->setScaledContents(true);
+    label ->setPixmap(*pixmap);label->setScaledContents(true);
     label->setGeometry(12,10,171,230);
 
     pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/fauteil1.png");

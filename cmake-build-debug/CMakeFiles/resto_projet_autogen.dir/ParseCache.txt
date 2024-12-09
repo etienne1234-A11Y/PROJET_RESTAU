@@ -3023,6 +3023,7 @@ F:/X3/programmation concurrente/depot/model/cuisinier.h
  mdp:F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qwidget.h
+F:/X3/programmation concurrente/depot/model/connexionbd.h
 F:/X3/programmation concurrente/depot/model/serveur.h
  mmc:Q_OBJECT
  mdp:F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/moc_predefs.h
@@ -3404,5 +3405,6 @@ F:/X3/programmation concurrente/depot/model/ViewModel.cpp
 F:/X3/programmation concurrente/depot/model/chefrang.cpp
 F:/X3/programmation concurrente/depot/model/commis.cpp
 F:/X3/programmation concurrente/depot/model/cuisinier.cpp
+F:/X3/programmation concurrente/depot/model/connexionbd.cpp
 F:/X3/programmation concurrente/depot/model/maitrehotel.cpp
 F:/X3/programmation concurrente/depot/model/plongeur.cpp

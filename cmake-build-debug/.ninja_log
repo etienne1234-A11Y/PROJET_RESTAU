@@ -1,42 +1,37 @@
 # ninja log v6
-24	854	7554014917079901	resto_projet_autogen/mocs_compilation.cpp	d072e0be6f943118
-24	854	7554014917079901	resto_projet_autogen/timestamp	d072e0be6f943118
-3579	3661	7553955326835086	CMakeFiles/resto_projet.dir/resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp.obj	7a9042b5832cce8c
-855	4101	7554014917872545	CMakeFiles/resto_projet.dir/resto_projet_autogen/mocs_compilation.cpp.obj	e3d3433111559dda
-4430	4979	7554014953618467	resto_projet.exe	5513dc8529077c76
-1008	1100	7553955301950132	resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp	30c3fce9656e736a
-859	4430	7554014917902873	CMakeFiles/resto_projet.dir/main.cpp.obj	e128ee04f58e34dc
-1113	3579	7553955302180974	CMakeFiles/resto_projet.dir/model/ViewModel.cpp.obj	77cb593c4ccfaa5
-861	4057	7554014917932784	CMakeFiles/resto_projet.dir/controller/ViewController.cpp.obj	99138a1c351983c0
+214	1507	7554604468555069	resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
+214	1507	7554604468555069	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/timestamp	bbf57aa5307eb401
+214	1507	7554604468555069	resto_projet_autogen/timestamp	bbf57aa5307eb401
+6813	6902	7554016905524038	CMakeFiles/resto_projet.dir/resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp.obj	331cd7091981bc4a
+1508	5484	7554604469562393	CMakeFiles/resto_projet.dir/resto_projet_autogen/mocs_compilation.cpp.obj	de4427b8af935eb7
+9268	9900	7554016930079681	resto_projet.exe	6abc833f42339ebd
+2347	2423	7554016861528948	resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp	d38830f7035338ad
+1511	5725	7554604469602260	CMakeFiles/resto_projet.dir/main.cpp.obj	fa0bd7a9bfc8d74
+2437	4830	7554016861770405	CMakeFiles/resto_projet.dir/model/ViewModel.cpp.obj	b465591dd5ef53c
+1517	5343	7554604469659413	CMakeFiles/resto_projet.dir/controller/ViewController.cpp.obj	303a7fa7ff56991b
 24	854	7554014917079901	F:/X3/programmation concurrente/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp	d072e0be6f943118
-15	775	7554016401942952	build.ninja	7d8797f5556b62b7
+15	775	7554712796589674	build.ninja	7d8797f5556b62b7
 28	188	7551897214623516	F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/timestamp	9af5a11acf2cf4c0
 28	188	7551897214623516	F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp	9af5a11acf2cf4c0
 222	289	7551761952900648	F:/X3/programmation concurrente/QT CODE/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp	9a5778c862c78bdb
 1008	1100	7553955301950132	F:/X3/programmation concurrente/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp	30c3fce9656e736a
 24	854	7554014917079901	F:/X3/programmation concurrente/resto_projet_etie/resto_projet/resto_projet/cmake-build-debug/resto_projet_autogen/timestamp	d072e0be6f943118
-952	4295	7553997531623672	CMakeFiles/resto_projet.dir/model/chefrang.cpp.obj	d7d551c5d1ac9c48
-956	4315	7553997531653598	CMakeFiles/resto_projet.dir/model/maitrehotel.cpp.obj	362c06371a140049
-1707	5384	7554010778755442	CMakeFiles/resto_projet.dir/model/serveur.cpp.obj	4bf6f6ddeebd501c
-1710	5407	7554010778785347	CMakeFiles/resto_projet.dir/model/cuisinier.cpp.obj	cd3254c833d8b982
-5384	8131	7554010815525557	CMakeFiles/resto_projet.dir/model/commis.cpp.obj	ed37f59145ff2bb9
-200	2611	7554012632591068	CMakeFiles/resto_projet.dir/model/plongeur.cpp.obj	420d17330dbadc6e
-45	2345	7554016860104277	resto_projet_autogen/timestamp	bbf57aa5307eb401
-45	2345	7554016860104277	resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
-45	2345	7554016860104277	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/timestamp	bbf57aa5307eb401
-45	2345	7554016860104277	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
-2347	2423	7554016861528948	resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp	d38830f7035338ad
-2347	2423	7554016861528948	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp	d38830f7035338ad
-2437	4830	7554016861770405	CMakeFiles/resto_projet.dir/model/ViewModel.cpp.obj	b465591dd5ef53c
 2441	5581	7554016861810302	CMakeFiles/resto_projet.dir/model/chefrang.cpp.obj	a039231995dd312e
-2434	6287	7554016861730516	CMakeFiles/resto_projet.dir/controller/ViewController.cpp.obj	303a7fa7ff56991b
-2424	6445	7554016861629524	CMakeFiles/resto_projet.dir/resto_projet_autogen/mocs_compilation.cpp.obj	de4427b8af935eb7
-2431	6457	7554016861700584	CMakeFiles/resto_projet.dir/View/view.cpp.obj	2df980b982e2b968
-2427	6813	7554016861660703	CMakeFiles/resto_projet.dir/main.cpp.obj	fa0bd7a9bfc8d74
-6813	6902	7554016905524038	CMakeFiles/resto_projet.dir/resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp.obj	331cd7091981bc4a
 4831	7944	7554016885706436	CMakeFiles/resto_projet.dir/model/maitrehotel.cpp.obj	a24342bb7885a1c0
 5581	8649	7554016893206391	CMakeFiles/resto_projet.dir/model/serveur.cpp.obj	95920be0e670e1fc
 6287	9208	7554016900272050	CMakeFiles/resto_projet.dir/model/cuisinier.cpp.obj	bbb2385fbb9a2945
 6446	9249	7554016901848447	CMakeFiles/resto_projet.dir/model/commis.cpp.obj	ded3f25528350d7c
 6458	9268	7554016901968128	CMakeFiles/resto_projet.dir/model/plongeur.cpp.obj	190b427fff94f99e
-9268	9900	7554016930079681	resto_projet.exe	6abc833f42339ebd
+214	1507	7554604468555069	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
+2347	2423	7554016861528948	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/EWIEGA46WW/qrc_ressources.cpp	d38830f7035338ad
+1514	5616	7554604469622204	CMakeFiles/resto_projet.dir/View/view.cpp.obj	2df980b982e2b968
+39	233	7554712835147151	resto_projet_autogen/timestamp	bbf57aa5307eb401
+39	233	7554712835147151	resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
+39	233	7554712835147151	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/timestamp	bbf57aa5307eb401
+39	233	7554712835147151	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
+46	219	7554713023795851	resto_projet_autogen/timestamp	bbf57aa5307eb401
+46	219	7554713023795851	resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
+46	219	7554713023795851	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/timestamp	bbf57aa5307eb401
+46	219	7554713023795851	F:/X3/programmation concurrente/depot/cmake-build-debug/resto_projet_autogen/mocs_compilation.cpp	bbf57aa5307eb401
+220	2198	7554713025534760	CMakeFiles/resto_projet.dir/model/ViewModel.cpp.obj	b465591dd5ef53c
+2198	3844	7554713045313356	resto_projet.exe	6abc833f42339ebd
