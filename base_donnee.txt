@@ -1,0 +1,30 @@
+ CREATE TABLE Categorie (
+    id_Categorie INT PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(100) NOT NULL,
+    temps_plonge TIME NOT NULL
+);
+
+CREATE TABLE Location (
+    id_Location INT PRIMARY KEY AUTO_INCREMENT, -- Correction du champ id pour correspondre aux références.
+    nom VARCHAR(100) NOT NULL,
+    date_peremption DATE NULL
+);
+
+CREATE TABLE USTENSILE (
+    id_USTENSILE INT PRIMARY KEY AUTO_INCREMENT,
+    id_Categorie INT NOT NULL,
+    nom VARCHAR(100) NOT NULL,
+    quantite_disponible INT NOT NULL,
+    limite_minimale INT NOT NULL,
+    FOREIGN KEY (id_Categorie) REFERENCES Categorie(id_Categorie)
+);
+
+CREATE TABLE PRODUITS (
+    id_PRODUITS INT PRIMARY KEY AUTO_INCREMENT, -- Ajout d'AUTO_INCREMENT et clé primaire pour id_PRODUITS.
+    id_Location INT NOT NULL,
+    nom VARCHAR(100) NOT NULL,
+    quantite_necessaire INT NOT NULL,
+    date_peremption DATE NULL,
+    limite_minimale INT NOT NULL,
+    FOREIGN KEY (id_Location) REFERENCES Location(id_Location) -- Correction du nom de la clé étrangère.
+)
