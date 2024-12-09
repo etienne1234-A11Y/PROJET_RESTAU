@@ -1,0 +1,24 @@
+INSERT INTO PRODUITS (id_Location, nom, quantite_necessaire, date_peremption, limite_minimale, unite)
+VALUES
+-- Produits dans le réfrigérateur
+(1, 'Lait', 20, '2024-01-15', 5, 'litres'),        
+(1, 'Beurre', 10, '2024-02-01', 3, 'pièces'),
+(1, 'Œufs', 50, '2024-01-10', 10, 'pièces'),
+(1, 'Crème fraîche', 15, '2024-01-18', 5, 'litres'),
+
+-- Produits dans la chambre froide
+(4, 'Tomates', 60, '2024-01-08', 15, 'kg'),
+(4, 'Salade', 30, '2024-01-05', 10, 'kg'),
+(4, 'Oignons', 40, '2024-01-15', 10, 'kg'),
+(4, 'Persil', 25, '2024-01-12', 5, 'kg'),
+
+-- Produits dans l'étagère sèche
+(3, 'Farine', 25, NULL, 10, 'kg'),
+(3, 'Sel', 50, NULL, 10, 'kg'),
+(3, 'Sucre', 40, NULL, 10, 'kg'),
+(3, 'Vinaigre', 20, '2024-06-01', 5, 'litres'),
+(3, 'Pâte feuilletée', 12, '2024-02-20', 3, 'kg'),
+
+-- Produits dans le congélateur
+(2, 'Viande hachée', 50, '2024-01-20', 10, 'kg'),
+(2, 'Poisson', 30, '2024-01-25', 10, 'kg');

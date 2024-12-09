@@ -1,0 +1,25 @@
+INSERT INTO Categorie (nom, temps_plonge)
+VALUES
+('Couverts', '00:10:00'),    -- Les couverts nécessitent 10 minutes de plonge
+('Assiettes', '00:15:00'),   -- Les assiettes nécessitent 15 minutes
+('Verres', '00:12:00'),      -- Les verres nécessitent 12 minutes
+('Plats de cuisson', '00:20:00'); -- Plats plus volumineux
+
+-- Insertion des emplacements (locations)
+INSERT INTO Location (nom, date_peremption)
+VALUES
+('Réfrigérateur', NULL), -- Aucun produit périssable par défaut
+('Congélateur', NULL),
+('Étagère sèche', NULL),
+('Chambre froide', NULL);
+
+-- Insertion des ustensiles
+INSERT INTO USTENSILE (id_Categorie, nom, quantite_disponible, limite_minimale)
+VALUES
+(1, 'Couteau', 20, 5),       -- Couverts : 20 couteaux en stock, seuil minimum 5
+(1, 'Fourchette', 30, 10),   -- Couverts : 30 fourchettes, seuil minimum 10
+(2, 'Grande assiette', 50, 10), -- Assiettes : 50 grandes assiettes
+(2, 'Petite assiette', 40, 10), -- Assiettes : 40 petites assiettes
+(3, 'Verre à vin', 30, 10),  -- Verres : 30 verres à vin
+(4, 'Poêle', 10, 2),         -- Plats de cuisson : 10 poêles
+(4, 'Casserole', 5, 1);      -- Plats de cuisson : 5 casseroles
