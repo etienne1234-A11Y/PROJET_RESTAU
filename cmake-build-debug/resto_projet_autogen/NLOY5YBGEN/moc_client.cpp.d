@@ -206,6 +206,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QTimer \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -220,6 +221,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qatomic.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qbasicatomic.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qbasictimer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qbindingstorage.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qbytearray.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -311,6 +313,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtimer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtnoop.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
