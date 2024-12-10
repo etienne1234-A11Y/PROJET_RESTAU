@@ -8,6 +8,7 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QPixmap>
+#include <QTimer>
 
 
 
@@ -23,8 +24,11 @@
         // Méthode pour afficher l'image du serveur dans le panneau donné
         void creerclient(QWidget *parent);
 
+        void deplacerVers();
+
+
     private:
-        QLabel *label40;  // Label pour afficher l'image du serveur
+        QLabel *label50;  // Label pour afficher l'image du serveur
     };
 
 

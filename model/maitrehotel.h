@@ -9,6 +9,7 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QPixmap>
+#include <random>
 
 
 class maitrehotel : public QWidget {
@@ -20,6 +21,7 @@ public:
 
     // Méthode pour afficher l'image du serveur dans le panneau donné
     void affichermaitrehotel(QWidget *parent);
+    void assignertable(QWidget *parent);
 
 private:
     QLabel *label30;  // Label pour afficher l'image du serveur

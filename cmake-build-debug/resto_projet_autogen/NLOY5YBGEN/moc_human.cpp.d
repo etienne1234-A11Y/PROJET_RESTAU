@@ -1,8 +1,5 @@
 F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NLOY5YBGEN/moc_human.cpp: F:/X3/programmation\ concurrente/depot/model/human.h \
   F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
-  F:/X3/programmation\ concurrente/depot/View/view.h \
-  F:/X3/programmation\ concurrente/depot/model/ViewModel.h \
-  F:/X3/programmation\ concurrente/depot/view/view.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
@@ -209,13 +206,11 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QObject \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20type_traits.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q23utility.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qalgorithms.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanystringview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydata.h \
@@ -263,7 +258,6 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qlatin1stringview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qline.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qlist.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qlocale.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qlogging.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmalloc.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qmap.h \
@@ -284,7 +278,6 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qprocessordetection.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrect.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrefcount.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qregularexpression.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qset.h \
@@ -348,9 +341,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qimage.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpainterpath.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpalette.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpen.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpicture.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpixmap.h \
@@ -358,59 +349,23 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qregion.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qrgb.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qrgba64.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtextcursor.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtextdocument.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtextformat.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtextoption.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtgui-config.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qtransform.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qvalidator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QComboBox \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsItem \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGroupBox \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QLCDNumber \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QLabel \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QLineEdit \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QProgressBar \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QPushButton \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QSpinBox \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QStackedWidget \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QVBoxLayout \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QWidget \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractslider.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qcombobox.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qframe.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgroupbox.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlayout.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlayoutitem.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlcdnumber.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlineedit.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qprogressbar.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qrubberband.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qslider.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qspinbox.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qstackedwidget.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qstyle.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qstyleoption.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtabbar.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

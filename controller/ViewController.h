@@ -19,6 +19,7 @@ class Model;
 #include "model/plongeur.h"
 #include "model/serveur.h"
 #include "model/client.h"
+#include "model/human.h"
 
 class Controller : public QObject {
     Q_OBJECT
@@ -28,6 +29,9 @@ public:
     void show();
     void collectedonnees();
     void affichergens();
+    void assignertable(int tableIndex);
+    //void deplacer();
+
 
 
 private:
@@ -35,10 +39,7 @@ private:
     View *view;
 
 
-    private slots:
-    void onStartButtonClicked();
-    void onPauseButtonClicked();
-    void onTimeSpinBoxChanged(int time);
+
 
 };
 

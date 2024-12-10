@@ -9,26 +9,10 @@
 Controller::Controller(Model *model, View *view , QObject *parent)
     : QObject(parent), view(view) , model(model) {
 
-    //Connect View to Model
-    connect(view->getStartButton(), &QPushButton::clicked, this, &Controller::onStartButtonClicked);
-    connect(view->getPauseButton(), &QPushButton::clicked, this, &Controller::onPauseButtonClicked);
-    connect(view->getTimeSpinBox(), QOverload<int>::of(&QSpinBox::valueChanged), this, &Controller::onTimeSpinBoxChanged);
 
-    // Update View when Model changes
-    connect(model, &Model::timeUpdated, view, &View::updateTimeDisplay);
 }
 
-void Controller::onStartButtonClicked() {
-    model->setTime(model->getTime() + 1); // Simulate time increment
-}
 
-void Controller::onPauseButtonClicked() {
-    // Logic for pausing
-}
-
-void Controller::onTimeSpinBoxChanged(int time) {
-    model->setTime(time);
-}
 void Controller::collectedonnees() {
     QString dbName = "resto";
     QString user = "root";
@@ -59,6 +43,33 @@ void Controller::affichergens() {
     cuis->affichercuisinier(view->rightPanel);
     plong->afficherplongeur(view->rightPanel);
 }
+void Controller::assignertable(int tableIndex) {
+
+    // std::random_device rd;  // Obtenir une valeur aléatoire à partir du matériel
+    // std::mt19937 gen(rd());  // Initialiser le générateur avec la valeur de rd()
+    // std::uniform_int_distribution<> dis(1, 10);  // Plage entre 1 et 10
+    //
+    // // Générer un nombre aléatoire
+    // int nombreClients = dis(gen);
+    // QString status = view->getTableStatus(tableIndex);
+    //
+    // int tableCapacities = view->Tabledisponible(nombreClients);
+    //  if  ( nombreClients == tableCapacities && status == "available") {
+    //      view->setTableStatus(tableIndex, "occupied");
+    //
+    //      human *hum = new human(view);
+    //      hum->move(tableIndex,view->leftPanel);
+    //  }
+
+    }
+// void Controller::deplacer() {
+//     client *cli = new client(view);
+//     cli->deplacerVers(200,100);
+// }
+
+
+
+
 
 
 

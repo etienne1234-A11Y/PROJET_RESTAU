@@ -98,6 +98,9 @@ void View::first_interface() {
     Model *model = new Model();
     Controller *controller = new Controller(model,this);
     controller->affichergens();
+    //controller->deplacer();
+
+   // controller->assignertable(tableIndex);
 
 
 
@@ -114,10 +117,6 @@ void View::second_interface() {
 
     QWidget *centralWidget = new QWidget(this);
     setCentralWidget(centralWidget);
-
-
-
-
 
     // Boutons principaux
     QHBoxLayout *topButtonsLayout = new QHBoxLayout;
@@ -169,12 +168,23 @@ void View::updateTimeDisplay(int time) {
 QGroupBox* View::createTablesSection() {
     QGroupBox *group = new QGroupBox("ETATS DES TABLES");
     QVBoxLayout *layout = new QVBoxLayout;
-    for (int i = 0; i < 12; ++i) {
+
+    // Initialisation des statuts des tables
+    tableStatus.resize(11, "available"); // "available" est l'état par défaut
+
+    for (int i = 0; i < 11; ++i) {
         QHBoxLayout *rowLayout = new QHBoxLayout;
         QLineEdit *tableName = new QLineEdit(QString("Table_%1").arg(i + 1));
         tableName->setReadOnly(true);
         QLabel *status = new QLabel("●");
-        status->setStyleSheet("color: green; font-size: 16px;");
+
+        // Déterminer l'état de la table
+        if (tableStatus[i] == "available") {
+            status->setStyleSheet("color: green; font-size: 16px;");
+        } else {
+            status->setStyleSheet("color: red; font-size: 16px;");
+        }
+
         rowLayout->addWidget(tableName);
         rowLayout->addWidget(status);
         layout->addLayout(rowLayout);
@@ -182,7 +192,29 @@ QGroupBox* View::createTablesSection() {
     group->setLayout(layout);
     return group;
 }
+void View::setTableStatus(int tableIndex, const QString &status) {
+    if (tableIndex < tableStatuses.size()) {
+        tableStatuses[tableIndex] = status;
+    }
+}
 
+QString View::getTableStatus(int index) {
+    // Retourne l'état sous forme de chaîne (vert, rouge, etc.)
+    if (index >= 0 && index < tableStatus.size()) {
+        return tableStatus[index];
+    }
+    return "";
+}
+int View::Tabledisponible(int nombreClients) {
+    // Les capacités des tables (indexées de 0 à 10 pour les tables 1 à 11)
+    QVector<int> tableCapacities = {4, 6, 8, 10, 4, 6, 8, 10, 6, 4, 2};  // Exemple de capacité des tables
+    for (int i = 0; i < tableCapacities.size(); ++i) {
+        if (tableStatus[i] == "available" && tableCapacities[i] >= nombreClients) {
+            return i;  // Retourner l'index de la table qui peut accueillir les clients
+        }
+    }
+    return -1;  // Aucune table disponible
+}
 QGroupBox* View::createAlertsSection() {
     QGroupBox *group = new QGroupBox("ALERTES");
     QGridLayout *layout = new QGridLayout;
@@ -459,7 +491,5 @@ void View::show_table_personnages() {
     label27 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label27->setGeometry(410,510,71,81);
-
-
 
 }

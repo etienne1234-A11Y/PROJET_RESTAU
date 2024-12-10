@@ -51,6 +51,8 @@ set(PROJECT_SOURCES
         model/client.cpp
         model/Database.h
         model/Database.cpp
+        model/human.h
+        model/human.cpp
 )
 
 # Création de l'exécutable

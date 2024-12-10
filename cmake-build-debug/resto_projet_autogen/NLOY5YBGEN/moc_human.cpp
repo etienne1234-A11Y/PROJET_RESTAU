@@ -34,16 +34,16 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSHumanENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSHumanENDCLASS = QtMocHelpers::stringData(
-    "Human"
+struct qt_meta_stringdata_CLASShumanENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASShumanENDCLASS = QtMocHelpers::stringData(
+    "human"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSHumanENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASShumanENDCLASS[] = {
 
  // content:
       12,       // revision
@@ -59,20 +59,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSHumanENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject Human::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject human::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_CLASSHumanENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSHumanENDCLASS,
+    qt_meta_stringdata_CLASShumanENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASShumanENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSHumanENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASShumanENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<Human, std::true_type>
+        QtPrivate::TypeAndForceComplete<human, std::true_type>
     >,
     nullptr
 } };
 
-void Human::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void human::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -80,20 +80,20 @@ void Human::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
     (void)_a;
 }
 
-const QMetaObject *Human::metaObject() const
+const QMetaObject *human::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Human::qt_metacast(const char *_clname)
+void *human::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSHumanENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASShumanENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
-int Human::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int human::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     return _id;

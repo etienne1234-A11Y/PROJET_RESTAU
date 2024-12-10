@@ -1,7 +1,7 @@
 #ifndef VIEW_H
 #define VIEW_H
 
-
+class Controller;
 #include <QMainWindow>
 #include <QPushButton>
 #include <QSpinBox>
@@ -64,20 +64,31 @@ public:
     QWidget *secondPage;
 
     //chefrang *chef; // Instance de la classe chefrang
-
+    QVector<QString> tableStatuses;
     QPushButton *getStartButton() const;
     QPushButton *getPauseButton() const;
     QSpinBox *getTimeSpinBox() const;
 
     void updateTimeDisplay(int time);
+    //void setTableStatusStyle(int tableIndex, const QString& status);
+    int Tabledisponible(int nombreClients);
+    void setTableStatus(int tableIndex, const QString &status);
 
     QGroupBox* createTablesSection();
+    QString getTableStatus(int index);
     QGroupBox* createAlertsSection();
     QGroupBox* createClientsSection();
     QGroupBox* createWaitingSection();
     QGroupBox* createPositionsSection();
     QGroupBox* createIngredientsSection();
     QGroupBox* createUtensilsSection();
+
+private:
+    QVector<QString> tableStatus;
+    Model *model;  // Modèle partagé
+    Controller *controller;
+
+
 };
 
 

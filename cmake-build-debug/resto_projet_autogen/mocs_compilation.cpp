@@ -6,6 +6,7 @@
 #include "NLOY5YBGEN/moc_client.cpp"
 #include "NLOY5YBGEN/moc_commis.cpp"
 #include "NLOY5YBGEN/moc_cuisinier.cpp"
+#include "NLOY5YBGEN/moc_human.cpp"
 #include "NLOY5YBGEN/moc_maitrehotel.cpp"
 #include "NLOY5YBGEN/moc_plongeur.cpp"
 #include "NLOY5YBGEN/moc_serveur.cpp"

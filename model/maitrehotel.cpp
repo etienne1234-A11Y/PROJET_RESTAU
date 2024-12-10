@@ -26,3 +26,9 @@ void maitrehotel::affichermaitrehotel(QWidget *leftPanel) {
     label30->raise();
     label30->show();
 }
+
+
+
+
+
+
