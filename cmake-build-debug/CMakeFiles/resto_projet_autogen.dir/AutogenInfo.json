@@ -337,9 +337,27 @@
 			null
 		],
 		[
+			"F:/X3/programmation concurrente/depot/controller/WorkerThread.h",
+			"MU",
+			"NPUKSKGWT2/moc_WorkerThread.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/CustomTimer.h",
+			"MU",
+			"NLOY5YBGEN/moc_CustomTimer.cpp",
+			null
+		],
+		[
 			"F:/X3/programmation concurrente/depot/model/Database.h",
 			"MU",
 			"NLOY5YBGEN/moc_Database.cpp",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/TableManger.h",
+			"MU",
+			"NLOY5YBGEN/moc_TableManger.cpp",
 			null
 		],
 		[
@@ -478,9 +496,24 @@
 			"MU",
 			null
 		],
+		[
+			"F:/X3/programmation concurrente/depot/controller/WorkerThread.cpp",
+			"MU",
+			null
+		],
 		[ "F:/X3/programmation concurrente/depot/main.cpp", "MU", null ],
 		[
+			"F:/X3/programmation concurrente/depot/model/CustomTimer.cpp",
+			"MU",
+			null
+		],
+		[
 			"F:/X3/programmation concurrente/depot/model/Database.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/X3/programmation concurrente/depot/model/TableManger.cpp",
 			"MU",
 			null
 		],

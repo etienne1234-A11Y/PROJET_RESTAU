@@ -18,15 +18,8 @@
 
 #include "controller/ViewController.h"
 
-View::View(QWidget *parent) : QMainWindow(parent) {
+View::View(QWidget *parent) : QMainWindow(parent), tableManager() {
     // Initialiser le QStackedWidget pour basculer entre les interfaces
-
-
-    // Créer les interfaces
-
-
-    // Ajouter les interfaces au QStackedWidget
-
     firstPage = new QWidget(this);
     secondPage = new QWidget(this);
     stackedWidget = new QStackedWidget(this);
@@ -48,13 +41,32 @@ View::View(QWidget *parent) : QMainWindow(parent) {
     });
 }
 
+CustomTimer* View::getTimer() const {
+    return timer;
+}
+
+QPushButton* View::getStartButton() const {
+    return startButton;
+}
+
+
+
+QSpinBox* View::getTimeSpinBox() const {
+    return timeSpinBox;
+}
+
+
+
+int View::findAvailableTableForClients(int numberOfClients) {
+    return tableManager.findAvailableTable(numberOfClients);
+}
+
 void View::first_interface() {
     startButton = new QPushButton("START");
-    pauseButton = new QPushButton("PAUSE");
-    speedButton = new QPushButton("SPEED");
-    normalButton = new QPushButton("NORMAL");
+
+   
     dashboardButton = new QPushButton("DASHBOARD");
-    timeSpinBox = new QSpinBox();
+    timeSpinBox = new QSpinBox(this);
     leftPanel = new QWidget();
     rightPanel = new QWidget();
 
@@ -68,14 +80,23 @@ void View::first_interface() {
     // Layout pour les boutons
     QHBoxLayout *buttonLayout = new QHBoxLayout();
     buttonLayout->addWidget(startButton);
-    buttonLayout->addWidget(pauseButton);
-    buttonLayout->addWidget(speedButton);
-    buttonLayout->addWidget(normalButton);
+
+
     buttonLayout->addWidget(dashboardButton);
 
-    // Configurer le SpinBox
-    timeSpinBox->setPrefix("00:00");
-    timeSpinBox->setRange(0, 60); // Limite des secondes
+    timeSpinBox->setRange(0, 60);
+    timeSpinBox->setPrefix("00:");
+
+    // Initialisation du timer
+    timer = new CustomTimer(timeSpinBox, this);
+
+    // Lorsque le bouton START est cliqué, démarrer le timer et afficher les personnages
+    connect(startButton, &QPushButton::clicked, this, [=]() {
+        timer->start();
+    });
+
+
+
     buttonLayout->addWidget(timeSpinBox);
 
     mainLayout->addLayout(buttonLayout);
@@ -94,37 +115,25 @@ void View::first_interface() {
 
     mainLayout->addLayout(panelsLayout);
 
-
     Model *model = new Model();
-    Controller *controller = new Controller(model,this);
-    controller->affichergens();
-    //controller->deplacer();
-
-   // controller->assignertable(tableIndex);
-
-
+    Controller *controller = new Controller(model, this);
 
     show_table_personnages();
 
     firstPage->setLayout(mainLayout);
 }
 
-
-
-
 void View::second_interface() {
-    // Créer le widget central
-
     QWidget *centralWidget = new QWidget(this);
     setCentralWidget(centralWidget);
 
     // Boutons principaux
     QHBoxLayout *topButtonsLayout = new QHBoxLayout;
     startButton = new QPushButton("START");
-    pauseButton = new QPushButton("PAUSE");
+
     backButton = new QPushButton("BACK");
     topButtonsLayout->addWidget(startButton);
-    topButtonsLayout->addWidget(pauseButton);
+
     topButtonsLayout->addWidget(backButton);
     topButtonsLayout->addStretch();
 
@@ -143,99 +152,83 @@ void View::second_interface() {
     secondPage->setLayout(mainLayout);
 }
 
-QPushButton* View::getStartButton() const {
-    return startButton;
-}
-
-QPushButton* View::getPauseButton() const {
-    return pauseButton;
-}
-
-QSpinBox* View::getTimeSpinBox() const {
-    return timeSpinBox;
-}
-
-void View::updateTimeDisplay(int time) {
-    // Utilisez l'opérateur approprié selon que timeDisplay est un pointeur ou non
-#ifdef USE_POINTER
-    timeDisplay->setText(QString::number(time));
-#else
-    timeDisplay->setText(QString::number(time));
-#endif
-}
-
-
 QGroupBox* View::createTablesSection() {
-    QGroupBox *group = new QGroupBox("ETATS DES TABLES");
+    QGroupBox *group = new QGroupBox("TABLES");
     QVBoxLayout *layout = new QVBoxLayout;
+    std::vector<std::pair<int, int>> tablePositions = tableManager.getTablePositions();
+    for (size_t i = 0; i < tablePositions.size(); ++i) {
+        std::string status = tableManager.getTableStatus(i);
+        int capacity = tableManager.getTableCapacity(i);
 
-    // Initialisation des statuts des tables
-    tableStatus.resize(11, "available"); // "available" est l'état par défaut
 
-    for (int i = 0; i < 11; ++i) {
-        QHBoxLayout *rowLayout = new QHBoxLayout;
-        QLineEdit *tableName = new QLineEdit(QString("Table_%1").arg(i + 1));
-        tableName->setReadOnly(true);
-        QLabel *status = new QLabel("●");
+        // Convertir le pair en une chaîne (par exemple "(x, y)")
+        std::string position = "(" + std::to_string(tablePositions[i].first) + ", " + std::to_string(tablePositions[i].second) + ")";
 
-        // Déterminer l'état de la table
-        if (tableStatus[i] == "available") {
-            status->setStyleSheet("color: green; font-size: 16px;");
-        } else {
-            status->setStyleSheet("color: red; font-size: 16px;");
-        }
+        // Créer le texte à afficher
+        std::string labelText = position + " (" + status + ") - Capacity: " + std::to_string(capacity);
 
-        rowLayout->addWidget(tableName);
-        rowLayout->addWidget(status);
-        layout->addLayout(rowLayout);
+        // Créer et ajouter le QLabel
+        QLabel* label = new QLabel(QString::fromStdString(labelText));
+        label->setStyleSheet(status == "available" ? "color: green;" : "color: red;");
+        layout->addWidget(label);
     }
     group->setLayout(layout);
     return group;
 }
-void View::setTableStatus(int tableIndex, const QString &status) {
-    if (tableIndex < tableStatuses.size()) {
-        tableStatuses[tableIndex] = status;
-    }
-}
 
-QString View::getTableStatus(int index) {
-    // Retourne l'état sous forme de chaîne (vert, rouge, etc.)
-    if (index >= 0 && index < tableStatus.size()) {
-        return tableStatus[index];
-    }
-    return "";
-}
-int View::Tabledisponible(int nombreClients) {
-    // Les capacités des tables (indexées de 0 à 10 pour les tables 1 à 11)
-    QVector<int> tableCapacities = {4, 6, 8, 10, 4, 6, 8, 10, 6, 4, 2};  // Exemple de capacité des tables
-    for (int i = 0; i < tableCapacities.size(); ++i) {
-        if (tableStatus[i] == "available" && tableCapacities[i] >= nombreClients) {
-            return i;  // Retourner l'index de la table qui peut accueillir les clients
-        }
-    }
-    return -1;  // Aucune table disponible
-}
 QGroupBox* View::createAlertsSection() {
     QGroupBox *group = new QGroupBox("ALERTES");
     QGridLayout *layout = new QGridLayout;
-    for (int i = 1; i <= 8; ++i) {
-        QLabel *alertLabel = new QLabel(QString("Alerte %1").arg(i));
-        QLabel *alertStatus = new QLabel("●");
-        alertStatus->setStyleSheet("color: red; font-size: 16px;");
-        layout->addWidget(alertLabel, (i - 1) / 4, (i - 1) % 4 * 2);
-        layout->addWidget(alertStatus, (i - 1) / 4, (i - 1) % 4 * 2 + 1);
+
+    std::vector<std::pair<int, int>> tablePositions = tableManager.getTablePositions();
+
+    for (size_t i = 0; i < tablePositions.size(); ++i) {
+        std::string status = tableManager.getTableStatus(i);
+        int capacity = tableManager.getTableCapacity(i);
+
+        std::string position = "(" + std::to_string(tablePositions[i].first) + ", " + std::to_string(tablePositions[i].second) + ")";
+        std::string labelText = position + " (" + status + ") - Capacity: " + std::to_string(capacity);
+
+        QLabel* label = new QLabel(QString::fromStdString(labelText));
+        label->setStyleSheet(status == "available" ? "color: green;" : "color: red;");
+        layout->addWidget(label);
+
+        tableLabels[i] = label; // Associer le QLabel à l'index de la table
     }
+
+    group->setLayout(layout);
+    return group;
+}
+void View::updateTableStatus(int tableIndex, const std::string& newStatus) { // Notez le '&' pour le paramètre
+    if (tableLabels.find(tableIndex) != tableLabels.end()) {
+        QLabel* label = tableLabels[tableIndex];
+        std::pair<int, int> position = tableManager.getTablePosition(tableIndex);
+        int capacity = tableManager.getTableCapacity(tableIndex);
+
+        std::string labelText = "(" + std::to_string(position.first) + ", " + std::to_string(position.second) + ")";
+        labelText += " (" + newStatus + ") - Capacity: " + std::to_string(capacity);
+
+        label->setText(QString::fromStdString(labelText));
+        label->setStyleSheet(newStatus == "available" ? "color: green;" : "color: red;");
+    }
+}
+
+QGroupBox* View::createClientsSection() {
+    QGroupBox *group = new QGroupBox("NOMBRE TOTAL DE CLIENTS");
+    QVBoxLayout *layout = new QVBoxLayout;
+
+    // Initialiser le QLCDNumber pour l'affichage du nombre de clients
+    clientCountDisplay = new QLCDNumber;
+    layout->addWidget(clientCountDisplay); // Ajouter l'affichage du nombre de clients
+
     group->setLayout(layout);
     return group;
 }
 
-QGroupBox* View::createClientsSection() {
-    QGroupBox *group = new QGroupBox("NOMBRES TOTAL DE CLIENTS");
-    QVBoxLayout *layout = new QVBoxLayout;
-    QLCDNumber *clientCount = new QLCDNumber;
-    layout->addWidget(clientCount);
-    group->setLayout(layout);
-    return group;
+void View::updateClientCount(int count) {
+    if (clientCountDisplay) {
+        clientCountDisplay->display(count);
+    }
 }
 
 QGroupBox* View::createWaitingSection() {
@@ -247,6 +240,8 @@ QGroupBox* View::createWaitingSection() {
     group->setLayout(layout);
     return group;
 }
+
+
 
 QGroupBox* View::createPositionsSection() {
     QGroupBox *group = new QGroupBox("SUIVIS DES POSTES");
@@ -269,9 +264,9 @@ QGroupBox* View::createPositionsSection() {
 
         QLabel *status = new QLabel("●");
         if (i % 2 == 0) { // Alterner les couleurs pour simuler les statuts
-            status->setStyleSheet("color: green; font-size: 16px;"); // Disponible
+            status->setStyleSheet("color: red; font-size: 16px;"); // Disponible
         } else {
-            status->setStyleSheet("color: red; font-size: 16px;"); // Occupé
+            status->setStyleSheet("color: green; font-size: 16px;"); // Occupé
         }
 
         layout->addWidget(positionLine, i, 0); // Ajouter le nom du poste
@@ -306,20 +301,13 @@ QGroupBox* View::createUtensilsSection() {
         QLineEdit *utensilLine = new QLineEdit(utensils[i]);
         utensilLine->setReadOnly(true);
         QProgressBar *progressBar = new QProgressBar;
-        progressBar->setValue(100); // Exemple
+        progressBar->setValue(95); // Exemple
         layout->addWidget(utensilLine, i, 0);
         layout->addWidget(progressBar, i, 1);
     }
     group->setLayout(layout);
     return group;
 }
-void View::open_second_interface() {
-    second_interface();
-}
-void View::open_first_interface() {
-    first_interface();
-}
-
 
 void View::show_table_personnages() {
     pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/acceuil.png");

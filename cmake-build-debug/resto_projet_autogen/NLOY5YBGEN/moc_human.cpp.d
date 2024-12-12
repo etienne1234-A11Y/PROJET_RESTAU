@@ -1,5 +1,6 @@
 F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NLOY5YBGEN/moc_human.cpp: F:/X3/programmation\ concurrente/depot/model/human.h \
   F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
+  F:/X3/programmation\ concurrente/depot/model/TableManger.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
@@ -206,12 +207,17 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QPoint \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QPropertyAnimation \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QSequentialAnimationGroup \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20type_traits.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q23utility.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qabstractanimation.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qalgorithms.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanimationgroup.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanystringview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydata.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydataops.h \
@@ -239,6 +245,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdatastream.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdebug.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qeasingcurve.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qendian.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qflags.h \
@@ -276,10 +283,12 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpair.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpoint.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qprocessordetection.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpropertyanimation.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrect.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrefcount.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qsequentialanimationgroup.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qset.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata_impl.h \
@@ -324,11 +333,11 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qurl.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvariant.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvariantanimation.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/QPixmap \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qaction.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qbitmap.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qbrush.h \
@@ -357,14 +366,9 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NL
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QLabel \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QVBoxLayout \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QWidget \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qframe.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlayout.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlayoutitem.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
