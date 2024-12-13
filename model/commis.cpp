@@ -11,7 +11,7 @@ commis::commis(QWidget *parent) : QWidget(parent) {
 
 void commis::affichercommis(QWidget *rightPanel) {
     // Créer un QLabel pour afficher l'image du serveur
-    QPixmap pixmap5("F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/commiscuisinedown.png");
+    QPixmap pixmap5("E:/Gpush/images/commiscuisinedown.png");
 
 
     QLabel *label34 = new QLabel(rightPanel);  // Utiliser 'leftPanel' comme parent

@@ -11,7 +11,7 @@ chefrang::chefrang(QWidget *parent) : QWidget(parent) {
 
 void chefrang::afficherchefrang(QWidget *leftPanel) {
     // Ajouter deux chefs de rang au panneau de gauche
-    QPixmap pixmap("F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/RangeChief.png");
+    QPixmap pixmap("E:Gpush/images/RangeChief.png");
 
     // Chef 1
     label28 = new QLabel(leftPanel);

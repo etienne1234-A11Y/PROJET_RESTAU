@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Configuration du chemin de Qt
-set(CMAKE_PREFIX_PATH "F:/logiciels/QT/6.8.0/mingw_64")
+set(CMAKE_PREFIX_PATH "E:/Qt/6.8.0/mingw_64")
 
 # Activation des fonctionnalités automatiques de Qt
 set(CMAKE_AUTOUIC ON)

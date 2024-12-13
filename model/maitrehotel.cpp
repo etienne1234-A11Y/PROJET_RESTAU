@@ -13,8 +13,7 @@ maitrehotel::maitrehotel(QWidget *parent) : QWidget(parent) {
 
 void maitrehotel::affichermaitrehotel(QWidget *leftPanel) {
     // Créer un QLabel pour afficher l'image du serveur
-    QPixmap pixmap2("F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/maitrehoteldown.png");
-
+    QPixmap pixmap2("E:/Gpush/images/maitrehoteldown.png");
     QLabel *label30 = new QLabel(leftPanel);  // Utiliser 'leftPanel' comme parent
     label30->setPixmap(pixmap2);
     label30->setScaledContents(true);

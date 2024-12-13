@@ -7,7 +7,7 @@ cuisinier::cuisinier(QWidget *parent) : QWidget(parent) {
 
 void cuisinier::affichercuisinier(QWidget *rightPanel) {
     // Créer un QLabel pour afficher l'image du cuisinier
-    QPixmap pixmap4("F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/MasterChefDown.png");
+    QPixmap pixmap4("E:/Gpush/images/MasterChefDown.png");
 
     QLabel *label33 = new QLabel(rightPanel);  // Utiliser 'rightPanel' comme parent
     label33->setPixmap(pixmap4);

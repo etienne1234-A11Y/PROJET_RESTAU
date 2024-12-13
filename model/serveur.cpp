@@ -12,7 +12,7 @@ serveur::serveur(QWidget *parent) : QWidget(parent) {
 
 void serveur::afficherserveur(QWidget *leftPanel) {
     // Charger l'image du serveur
-    QPixmap pixmap3("F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/serveurmovingdown.png");
+    QPixmap pixmap3("E:/Gpush/images/serveurmovingdown.png");
 
     // Serveur 1
     label31 = new QLabel(leftPanel);  // Mémoriser ce label comme membre

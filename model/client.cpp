@@ -9,7 +9,7 @@ void client::creerclient(QWidget *leftPanel) {
     // Créer un QLabel pour afficher l'image du client uniquement si label50 n'existe pas
     if (!label50) {
         label50 = new QLabel(leftPanel);
-        QPixmap pixmap10("F:/X3/programmation concurrente/depot/images/clientdown.png");
+        QPixmap pixmap10("E:/Gpush/images/clientdown.png");
         label50->setPixmap(pixmap10);
         label50->setScaledContents(true);
         label50->setGeometry(60, 280, 15, 30); // Position initiale

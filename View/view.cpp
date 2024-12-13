@@ -310,97 +310,97 @@ QGroupBox* View::createUtensilsSection() {
 }
 
 void View::show_table_personnages() {
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/acceuil.png");
+    pixmap = new QPixmap( "E:/Gpush/images/acceuil.png");
     QLabel *label = new QLabel(leftPanel);
     label->setObjectName("label");
     label ->setPixmap(*pixmap);label->setScaledContents(true);
     label->setGeometry(12,10,171,230);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/fauteil1.png");
+    pixmap = new QPixmap( "E:/Gpush/images/fauteil1.png");
     QLabel *label1 = new QLabel(leftPanel);
     label1 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label1->setGeometry(10,350,171,221);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/fauteil2.png");
+    pixmap = new QPixmap( "E:/Gpush/images/fauteil2.png");
     QLabel *label2 = new QLabel(leftPanel);
     label2 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label2->setGeometry(10,565,401,101);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label3 = new QLabel(leftPanel);
     label3 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label3->setGeometry(5,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label4 = new QLabel(leftPanel);
     label4 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label4->setGeometry(130,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label5 = new QLabel(leftPanel);
     label5 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label5->setGeometry(260,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label6 = new QLabel(leftPanel);
     label6 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label6->setGeometry(390,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label7 = new QLabel(leftPanel);
     label7 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label7->setGeometry(520,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label8 = new QLabel(leftPanel);
     label8 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label8->setGeometry(650,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label9 = new QLabel(leftPanel);
     label9 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label9->setGeometry(780,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label10 = new QLabel(leftPanel);
     label10 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label10->setGeometry(910,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tapis-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tapis-removebg-preview.png");
     QLabel *label22 = new QLabel(leftPanel);
     label22 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label22->setGeometry(1040,230,171,128);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tablede4-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tablede4-removebg-preview.png");
     QLabel *label11 = new QLabel(leftPanel);
     label11 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label11->setGeometry(200,20,121,101);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tableronde6-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tableronde6-removebg-preview.png");
     QLabel *label12 = new QLabel(leftPanel);
     label12 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label12->setGeometry(415,20,121,101);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tableronde8-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tableronde8-removebg-preview.png");
     QLabel *label13 = new QLabel(leftPanel);
     label13 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label13->setGeometry(600,120,151,131);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/tableronde10-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/tableronde10-removebg-preview.png");
     QLabel *label14 = new QLabel(leftPanel);
     label14 ->setPixmap(*pixmap);
     label->setScaledContents(true);
@@ -408,73 +408,73 @@ void View::show_table_personnages() {
 
 
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table4-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table4-removebg-preview.png");
     QLabel *label16 = new QLabel(leftPanel);
     label16 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label16->setGeometry(280,140,121,101);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table6-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table6-removebg-preview.png");
     QLabel *label17 = new QLabel(leftPanel);
     label17 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label17->setGeometry(800,530,161,131);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table8-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table8-removebg-preview.png");
     QLabel *label18 = new QLabel(leftPanel);
     label18 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label18->setGeometry(500,325,201,171);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table10-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table10-removebg-preview.png");
     QLabel *label15 = new QLabel(leftPanel);
     label15 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label15->setGeometry(500,500,201,171);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table6-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table6-removebg-preview.png");
     QLabel *label19 = new QLabel(leftPanel);
     label19 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label19->setGeometry(280,400,201,171);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table4-removebg-preview.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table4-removebg-preview.png");
     QLabel *label20 = new QLabel(leftPanel);
     label20 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label20->setGeometry(800,355,121,101);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table 2.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table 2.png");
     QLabel *label21 = new QLabel(leftPanel);
     label21 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label21->setGeometry(625,20,121,71);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/cuisiniere.png");
+    pixmap = new QPixmap( "E:/Gpush/images/cuisiniere.png");
     QLabel *label23 = new QLabel(rightPanel);
     label23 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label23->setGeometry(410,10,63,321);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table.png");
     QLabel *label24 = new QLabel(rightPanel);
     label24 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label24->setGeometry(180,10,81,251);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/table.png");
+    pixmap = new QPixmap( "E:/Gpush/images/table.png");
     QLabel *label25 = new QLabel(rightPanel);
     label25 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label25->setGeometry(240,10,81,251);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/plonge.png");
+    pixmap = new QPixmap( "E:/Gpush/images/plonge.png");
     QLabel *label26 = new QLabel(rightPanel);
     label26 ->setPixmap(*pixmap);
     label->setScaledContents(true);
     label26->setGeometry(410,420,71,81);
 
-    pixmap = new QPixmap( "F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/plonge.png");
+    pixmap = new QPixmap( "E:/Gpush/images/plonge.png");
     QLabel *label27 = new QLabel(rightPanel);
     label27 ->setPixmap(*pixmap);
     label->setScaledContents(true);

@@ -14,7 +14,7 @@ plongeur::plongeur(QWidget *parent) : QWidget(parent) {
 
 void plongeur::afficherplongeur(QWidget *rightPanel) {
     // Créer un QLabel pour afficher l'image du serveur
-    QPixmap pixmap5("F:/X3/programmation concurrente/restaurant_projet/resto_projet/images/plongeurmovingdown.png");
+    QPixmap pixmap5("E:/Gpush/images/plongeurmovingdown.png");
 
 
     QLabel *label35 = new QLabel(rightPanel);  // Utiliser 'leftPanel' comme parent
