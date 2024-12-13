@@ -1,17 +1,20 @@
-F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NPUKSKGWT2/moc_ViewController.cpp: F:/X3/programmation\ concurrente/depot/controller/ViewController.h \
-  F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
-  F:/X3/programmation\ concurrente/depot/View/view.h \
-  F:/X3/programmation\ concurrente/depot/controller/ViewController.h \
-  F:/X3/programmation\ concurrente/depot/model/Database.h \
-  F:/X3/programmation\ concurrente/depot/model/ViewModel.h \
-  F:/X3/programmation\ concurrente/depot/model/chefrang.h \
-  F:/X3/programmation\ concurrente/depot/model/client.h \
-  F:/X3/programmation\ concurrente/depot/model/commis.h \
-  F:/X3/programmation\ concurrente/depot/model/cuisinier.h \
-  F:/X3/programmation\ concurrente/depot/model/human.h \
-  F:/X3/programmation\ concurrente/depot/model/maitrehotel.h \
-  F:/X3/programmation\ concurrente/depot/model/plongeur.h \
-  F:/X3/programmation\ concurrente/depot/model/serveur.h \
+F:/X3/programmation\ concurrente/projetcode/cmake-build-debug/resto_projet_autogen/NPUKSKGWT2/moc_ViewController.cpp: F:/X3/programmation\ concurrente/projetcode/controller/ViewController.h \
+  F:/X3/programmation\ concurrente/projetcode/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
+  F:/X3/programmation\ concurrente/projetcode/View/view.h \
+  F:/X3/programmation\ concurrente/projetcode/controller/ViewController.h \
+  F:/X3/programmation\ concurrente/projetcode/controller/WorkerThread.h \
+  F:/X3/programmation\ concurrente/projetcode/model/CustomTimer.h \
+  F:/X3/programmation\ concurrente/projetcode/model/Database.h \
+  F:/X3/programmation\ concurrente/projetcode/model/TableManger.h \
+  F:/X3/programmation\ concurrente/projetcode/model/ViewModel.h \
+  F:/X3/programmation\ concurrente/projetcode/model/chefrang.h \
+  F:/X3/programmation\ concurrente/projetcode/model/client.h \
+  F:/X3/programmation\ concurrente/projetcode/model/commis.h \
+  F:/X3/programmation\ concurrente/projetcode/model/cuisinier.h \
+  F:/X3/programmation\ concurrente/projetcode/model/human.h \
+  F:/X3/programmation\ concurrente/projetcode/model/maitrehotel.h \
+  F:/X3/programmation\ concurrente/projetcode/model/plongeur.h \
+  F:/X3/programmation\ concurrente/projetcode/model/serveur.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
@@ -24,7 +27,10 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
@@ -46,9 +52,12 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
@@ -56,6 +65,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
@@ -72,6 +82,8 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
@@ -98,6 +110,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
@@ -112,6 +125,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -119,6 +133,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
@@ -130,16 +145,22 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
@@ -176,6 +197,8 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
@@ -228,9 +251,15 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+  F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QDebug \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QList \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QObject \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QPoint \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QPropertyAnimation \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QSequentialAnimationGroup \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QString \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QThread \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QTimer \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QVariant \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
@@ -238,8 +267,10 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20type_traits.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q23utility.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qabstractanimation.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qalgorithms.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanimationgroup.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanystringview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydata.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydataops.h \
@@ -267,7 +298,10 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qcontiguouscache.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdatastream.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdeadlinetimer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdebug.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qeasingcurve.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qelapsedtimer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qendian.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qflags.h \
@@ -307,11 +341,13 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpair.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpoint.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qprocessordetection.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpropertyanimation.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrect.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrefcount.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qregularexpression.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qsequentialanimationgroup.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qset.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata_impl.h \
@@ -343,6 +379,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qthread.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtimer.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtnoop.h \
@@ -357,6 +394,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qurl.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvariant.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvariantanimation.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
@@ -374,7 +412,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qimage.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpainterpath.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpainter.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpalette.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpen.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpicture.h \
@@ -405,8 +443,8 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlexports.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlglobal.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QComboBox \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsItem \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsScene \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsView \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGroupBox \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QLCDNumber \
@@ -421,12 +459,14 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QWidget \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractslider.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qcombobox.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qframe.h \
-  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgraphicsview.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgroupbox.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -438,6 +478,7 @@ F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/NP
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qprogressbar.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qrubberband.h \
+  F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qscrollarea.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qslider.h \
   F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qspinbox.h \

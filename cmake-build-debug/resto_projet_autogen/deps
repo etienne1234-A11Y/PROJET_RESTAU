@@ -1,60 +1,128 @@
 resto_projet_autogen/timestamp: \
-	F:/X3/programmation\ concurrente/depot/CMakeLists.txt \
-	F:/X3/programmation\ concurrente/depot/View/view.cpp \
-	F:/X3/programmation\ concurrente/depot/View/view.h \
-	F:/X3/programmation\ concurrente/depot/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
-	F:/X3/programmation\ concurrente/depot/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake \
-	F:/X3/programmation\ concurrente/depot/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
-	F:/X3/programmation\ concurrente/depot/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
-	F:/X3/programmation\ concurrente/depot/controller/ViewController.cpp \
-	F:/X3/programmation\ concurrente/depot/controller/ViewController.h \
-	F:/X3/programmation\ concurrente/depot/main.cpp \
-	F:/X3/programmation\ concurrente/depot/model/Database.cpp \
-	F:/X3/programmation\ concurrente/depot/model/Database.h \
-	F:/X3/programmation\ concurrente/depot/model/ViewModel.cpp \
-	F:/X3/programmation\ concurrente/depot/model/ViewModel.h \
-	F:/X3/programmation\ concurrente/depot/model/chefrang.cpp \
-	F:/X3/programmation\ concurrente/depot/model/chefrang.h \
-	F:/X3/programmation\ concurrente/depot/model/client.cpp \
-	F:/X3/programmation\ concurrente/depot/model/client.h \
-	F:/X3/programmation\ concurrente/depot/model/commis.cpp \
-	F:/X3/programmation\ concurrente/depot/model/commis.h \
-	F:/X3/programmation\ concurrente/depot/model/cuisinier.cpp \
-	F:/X3/programmation\ concurrente/depot/model/cuisinier.h \
-	F:/X3/programmation\ concurrente/depot/model/human.cpp \
-	F:/X3/programmation\ concurrente/depot/model/human.h \
-	F:/X3/programmation\ concurrente/depot/model/maitrehotel.cpp \
-	F:/X3/programmation\ concurrente/depot/model/maitrehotel.h \
-	F:/X3/programmation\ concurrente/depot/model/plongeur.cpp \
-	F:/X3/programmation\ concurrente/depot/model/plongeur.h \
-	F:/X3/programmation\ concurrente/depot/model/serveur.cpp \
-	F:/X3/programmation\ concurrente/depot/model/serveur.h \
-	F:/X3/programmation\ concurrente/depot/ressources.qrc \
+	F:/X3/programmation\ concurrente/projetcode/CMakeLists.txt \
+	F:/X3/programmation\ concurrente/projetcode/View/view.cpp \
+	F:/X3/programmation\ concurrente/projetcode/View/view.h \
+	F:/X3/programmation\ concurrente/projetcode/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
+	F:/X3/programmation\ concurrente/projetcode/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake \
+	F:/X3/programmation\ concurrente/projetcode/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
+	F:/X3/programmation\ concurrente/projetcode/cmake-build-debug/resto_projet_autogen/moc_predefs.h \
+	F:/X3/programmation\ concurrente/projetcode/controller/ViewController.cpp \
+	F:/X3/programmation\ concurrente/projetcode/controller/ViewController.h \
+	F:/X3/programmation\ concurrente/projetcode/controller/WorkerThread.cpp \
+	F:/X3/programmation\ concurrente/projetcode/controller/WorkerThread.h \
+	F:/X3/programmation\ concurrente/projetcode/main.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/CustomTimer.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/CustomTimer.h \
+	F:/X3/programmation\ concurrente/projetcode/model/Database.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/Database.h \
+	F:/X3/programmation\ concurrente/projetcode/model/TableManger.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/TableManger.h \
+	F:/X3/programmation\ concurrente/projetcode/model/ViewModel.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/ViewModel.h \
+	F:/X3/programmation\ concurrente/projetcode/model/chefrang.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/chefrang.h \
+	F:/X3/programmation\ concurrente/projetcode/model/client.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/client.h \
+	F:/X3/programmation\ concurrente/projetcode/model/commis.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/commis.h \
+	F:/X3/programmation\ concurrente/projetcode/model/cuisinier.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/cuisinier.h \
+	F:/X3/programmation\ concurrente/projetcode/model/human.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/human.h \
+	F:/X3/programmation\ concurrente/projetcode/model/maitrehotel.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/maitrehotel.h \
+	F:/X3/programmation\ concurrente/projetcode/model/plongeur.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/plongeur.h \
+	F:/X3/programmation\ concurrente/projetcode/model/serveur.cpp \
+	F:/X3/programmation\ concurrente/projetcode/model/serveur.h \
+	F:/X3/programmation\ concurrente/projetcode/ressources.qrc \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindVulkan.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake \
+	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake \
 	F:/logiciels/CLion\ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake \
@@ -74,7 +142,10 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
@@ -96,9 +167,12 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
@@ -106,6 +180,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
@@ -122,6 +197,8 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
@@ -148,6 +225,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
@@ -162,6 +240,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -169,6 +248,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
@@ -180,16 +260,22 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
@@ -226,6 +312,8 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
@@ -278,9 +366,15 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/time.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
 	F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
+	F:/logiciels/CLion\ 2024.2.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QDebug \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QList \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QObject \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QPoint \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QPropertyAnimation \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QSequentialAnimationGroup \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QString \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QThread \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QTimer \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/QVariant \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20functional.h \
@@ -288,8 +382,10 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20memory.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q20type_traits.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/q23utility.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qabstractanimation.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qabstractitemmodel.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qalgorithms.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanimationgroup.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qanystringview.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydata.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qarraydataops.h \
@@ -317,7 +413,10 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qcontiguouscache.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdarwinhelpers.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdatastream.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdeadlinetimer.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qdebug.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qeasingcurve.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qelapsedtimer.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qendian.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qflags.h \
@@ -357,11 +456,13 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpair.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpoint.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qprocessordetection.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qpropertyanimation.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrect.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qrefcount.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qregularexpression.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qsequentialanimationgroup.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qset.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qshareddata_impl.h \
@@ -393,6 +494,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qthread.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtimer.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qtnoop.h \
@@ -407,6 +509,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qurl.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvariant.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvariantanimation.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
@@ -424,7 +527,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qimage.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
-	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpainterpath.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpainter.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpalette.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpen.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtGui/qpicture.h \
@@ -455,8 +558,8 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlexports.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtSql/qtsqlglobal.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QComboBox \
-	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsItem \
-	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsScene \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGraphicsView \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QGroupBox \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QLCDNumber \
@@ -471,12 +574,14 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/QWidget \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractslider.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qcombobox.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qframe.h \
-	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgraphicsitem.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgraphicsview.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qgroupbox.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -488,6 +593,7 @@ resto_projet_autogen/timestamp: \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qprogressbar.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qrubberband.h \
+	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qscrollarea.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qslider.h \
 	F:/logiciels/QT/6.8.0/mingw_64/include/QtWidgets/qspinbox.h \

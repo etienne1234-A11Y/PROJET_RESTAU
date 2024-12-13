@@ -53,6 +53,12 @@ set(PROJECT_SOURCES
         model/Database.cpp
         model/human.h
         model/human.cpp
+        model/CustomTimer.h
+        model/CustomTimer.cpp
+        model/TableManger.h
+        model/TableManger.cpp
+        controller/WorkerThread.h
+        controller/WorkerThread.cpp
 )
 
 # Création de l'exécutable

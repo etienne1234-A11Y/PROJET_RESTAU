@@ -1,95 +1,84 @@
 #ifndef VIEW_H
 #define VIEW_H
 
-class Controller;
 #include <QMainWindow>
 #include <QPushButton>
 #include <QSpinBox>
-#include <QWidget>
-#include <QLCDNumber>
-#include <QLineEdit>
-#include <QProgressBar>
-#include <QComboBox>
-#include <QGroupBox>
-#include <QGridLayout>
+#include <QLabel>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
-#include <QLabel>
-#include <QPixmap>
-#include <QGraphicsItem>
+#include <QGraphicsView>
+#include <QGraphicsScene>
 #include <QStackedWidget>
-#include "model\chefrang.h"
-#include "model\maitrehotel.h"
-#include "model\commis.h"
-#include "model\cuisinier.h"
-#include "model\plongeur.h"
-#include "model\serveur.h"
-#include "model\client.h"
+#include <QComboBox>
+#include <QGroupBox>
+#include <QLineEdit>
+#include <QLCDNumber>
+#include <QProgressBar>
+#include <QPixmap>
+
 #include "controller/ViewController.h"
 #include "model/ViewModel.h"
-#include <QObject>
-#include <QWidget>
-
+#include "model/CustomTimer.h"
+#include "model/TableManger.h"
 
 class View : public QMainWindow {
     Q_OBJECT
 
 public:
-    View(QWidget *parent = nullptr);
+    explicit View(QWidget *parent = nullptr);
+    CustomTimer* getTimer() const;
+    QPushButton* getStartButton() const;
 
+    QSpinBox* getTimeSpinBox() const;
+
+
+    int findAvailableTableForClients(int numberOfClients);
+    void updateTableStatus(int tableIndex, const std::string& newStatus);
 
 public:
-    void first_interface();
-    void second_interface();
-    void open_first_interface();
-    void open_second_interface();
-    void show_table_personnages();
-
+    QWidget *firstPage;
+    QWidget *secondPage;
+    QStackedWidget *stackedWidget;
 
     QPushButton *startButton;
-    QPushButton *pauseButton;
-    QPushButton *speedButton;
-    QPushButton *normalButton;
+
+
     QPushButton *dashboardButton;
-    QPushButton *backButton; // Bouton pour revenir à la première interface
+    QPushButton *backButton;
 
     QSpinBox *timeSpinBox;
+    QLCDNumber *clientCountDisplay;
+    QComboBox *alertComboBox;
+
+    QGraphicsView *view;
+    QGraphicsScene *scene;
+
     QWidget *leftPanel;
     QWidget *rightPanel;
     QPixmap *pixmap;
-    QLabel *label;
-    QLabel *timeDisplay;
-    QStackedWidget *stackedWidget; // Pour basculer entre les interfaces
-    QWidget *firstPage;           // Première interface
-    QWidget *secondPage;
 
-    //chefrang *chef; // Instance de la classe chefrang
-    QVector<QString> tableStatuses;
-    QPushButton *getStartButton() const;
-    QPushButton *getPauseButton() const;
-    QSpinBox *getTimeSpinBox() const;
+    CustomTimer *timer;
+    TableManger tableManager;
 
-    void updateTimeDisplay(int time);
-    //void setTableStatusStyle(int tableIndex, const QString& status);
-    int Tabledisponible(int nombreClients);
-    void setTableStatus(int tableIndex, const QString &status);
+    void first_interface();
+    void second_interface();
 
     QGroupBox* createTablesSection();
-    QString getTableStatus(int index);
     QGroupBox* createAlertsSection();
     QGroupBox* createClientsSection();
     QGroupBox* createWaitingSection();
     QGroupBox* createPositionsSection();
     QGroupBox* createIngredientsSection();
     QGroupBox* createUtensilsSection();
+    void updateClientCount(int count);
 
-private:
-    QVector<QString> tableStatus;
-    Model *model;  // Modèle partagé
-    Controller *controller;
+    void show_table_personnages();
 
+    private :
+        TableManger tableManger; // Instance pour gérer les tables
+    std::map<int, QLabel*> tableLabels; // Pour suivre les label
 
 };
-
 
 #endif // VIEW_H

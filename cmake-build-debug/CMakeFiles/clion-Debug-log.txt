@@ -1,5 +1,17 @@
-"F:\logiciels\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=F:/logiciels/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -DCMAKE_PREFIX_PATH=F:\logiciels\QT\6.8.0\mingw_64 -G Ninja -S "F:\X3\programmation concurrente\depot" -B "F:\X3\programmation concurrente\depot\cmake-build-debug"
+"F:\logiciels\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=F:/logiciels/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -DCMAKE_PREFIX_PATH=F:\logiciels\QT\6.8.0\mingw_64 -G Ninja -S "F:\X3\programmation concurrente\projetcode" -B "F:\X3\programmation concurrente\projetcode\cmake-build-debug"
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: F:/logiciels/CLion 2024.2.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
 -- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
--- Configuring done (0.4s)
+-- Configuring done (2.4s)
 -- Generating done (0.0s)
--- Build files have been written to: F:/X3/programmation concurrente/depot/cmake-build-debug
+-- Build files have been written to: F:/X3/programmation concurrente/projetcode/cmake-build-debug

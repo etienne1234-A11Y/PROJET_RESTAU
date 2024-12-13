@@ -1,43 +1,54 @@
-//
-// Created by TRIPLE K on 10/12/2024.
-//
+#include "Human.h"
+#include <QPropertyAnimation>
+#include <QSequentialAnimationGroup>
+#include <QEasingCurve>
+#include <QPoint>
+#include "TableManger.h"  // Inclure la classe TableManager
 
-#include "human.h"
-
-#include <iostream>
-#include <ostream>
-
+// Renommé en Human pour respecter la convention de nommage
 human::human(QWidget *parent) : QWidget(parent) {
+    // Initialisation si nécessaire
+}
+void human::moveOnce(QLabel *personnageLabel, const QPoint &startPos, const QPoint &endPos, int duration) {
+    personnageLabel->setGeometry(startPos.x(), startPos.y(), 15, 30);
+
+    // Créer une animation pour déplacer le personnage vers la position finale
+    QPropertyAnimation *goToEnd = new QPropertyAnimation(personnageLabel, "pos");
+    goToEnd->setDuration(duration);
+    goToEnd->setStartValue(startPos);
+    goToEnd->setEndValue(endPos);
+    goToEnd->setEasingCurve(QEasingCurve::OutQuad);
+
+    // Lancer l'animation sans boucle
+    goToEnd->start();
 }
 
-void human::move(int tableIndex,QWidget *leftPanel) {
-    // QVector<QPoint> tablePositions = {
-    //     {200, 20}, {415, 20}, {600, 120}, {800, 10},
-    //     {280, 140}, {800, 530}, {500, 325}, {500, 500},
-    //     {280, 400}, {800, 350}, {625, 20}
-    // };
-    //
-    // if (tableIndex >= 0 && tableIndex < tablePositions.size()) {
-    //     QPoint tablePos = tablePositions[tableIndex];
-    //
-    //     // Déplacer le client à la position de la table
-    //     // Supposons que vous avez un QLabel représentant le client
-    //     QPixmap pixmap10("F:/X3/programmation concurrente/depot/images/clientdown.png");
-    //     QLabel *clientLabel = new QLabel(leftPanel);
-    //     clientLabel->setPixmap(pixmap10);
-    //     clientLabel->setGeometry(100, 200,15,30);  // Position initiale du client
-    //
-    //     // Déplacer le client à la position de la table
-    //     clientLabel->move(tablePos);  // Déplacer le client à la position de la table
-    //     clientLabel->show();
-    // }
-}
-void human::deplacement(QWidget *leftPanel) {
+void human::moveLoop(QLabel *personnageLabel, const QPoint &startPos, const QPoint &endPos, int duration) {
+    personnageLabel->setGeometry(startPos.x(), startPos.y(), 15, 30);
 
+    QPropertyAnimation *goToEnd = new QPropertyAnimation(personnageLabel, "pos");
+    goToEnd->setDuration(duration);
+    goToEnd->setStartValue(startPos);
+    goToEnd->setEndValue(endPos);
+    goToEnd->setEasingCurve(QEasingCurve::OutQuad);
 
+    QPropertyAnimation *returnToStart = new QPropertyAnimation(personnageLabel, "pos");
+    returnToStart->setDuration(duration);
+    returnToStart->setStartValue(endPos);
+    returnToStart->setEndValue(startPos);
+    returnToStart->setEasingCurve(QEasingCurve::OutQuad);
+
+    QSequentialAnimationGroup *group = new QSequentialAnimationGroup(this);
+    group->addAnimation(goToEnd);
+    group->addAnimation(returnToStart);
+    group->setLoopCount(-1);
+    group->start();
 }
 
+QPoint human::getTablePosition(int tableIndex, const TableManger &manager) const {
+    // On récupère les positions des tables sous forme de std::pair<int, int>
+    std::pair<int, int> position = manager.getTablePosition(tableIndex);
 
-
-
-
+    // Convertir le std::pair<int, int> en QPoint
+    return QPoint(position.first, position.second);
+}

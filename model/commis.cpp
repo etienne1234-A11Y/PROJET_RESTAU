@@ -24,5 +24,19 @@ void commis::affichercommis(QWidget *rightPanel) {
     // S'assurer que le label est visible et au premier plan
     label34->raise();
     label34->show();
+    human *hum = new human(rightPanel);
+
+    // Position de départ (position initiale du cuisinier)
+    QPoint startPos(320, 100);
+
+    // Position de destination (par exemple, vers une autre partie du panel)
+    QPoint endPos(350, 100);  // Exemple de destination
+
+    // Durée du mouvement (en millisecondes)
+    int duration = 4000;
+
+    // Déplacer le cuisinier avec l'animation et l'effet de marche
+    hum->moveLoop(label34, startPos, endPos, duration);
 }
+
 

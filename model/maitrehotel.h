@@ -22,9 +22,15 @@ public:
     // Méthode pour afficher l'image du serveur dans le panneau donné
     void affichermaitrehotel(QWidget *parent);
     void assignertable(QWidget *parent);
+    QLabel* getLabel() const { return label30; }  // Getter pour le QLabel du client
+    int getX() const { return xPos; }             // Getter pour la position X
+    int getY() const { return yPos; }             // Getter pour la position Y
 
 private:
     QLabel *label30;  // Label pour afficher l'image du serveur
+    int xPos;
+    int yPos;
+    QTimer *moveTimer;
 };
 
 
